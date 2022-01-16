@@ -1,0 +1,150 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block
+}
+
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sub {
+  bottom: -.25em
+}
+
+sup {
+  top: -.5em
+}
+
+img {
+  border-style: none
+}
+
+.footer_in {
+  height: 5.5rem;
+  border-top: 8px solid #f7f7f7;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.header {
+  padding-top: 2rem;
+  padding-bottom: 1rem
+}
+
+@media (max-width:768px) {
+  .header {
+    padding-top: 0;
+    position: relative;
+    height: 3.125rem
+  }
+}
+
+@media (max-width:768px) {
+  .header.menu--opened .header__sup {
+    background: #faece0
+  }
+}
+
+@media (max-width:768px) {
+  .header.menu--opened .header__sup {
+    background: #faece0
+  }
+}
+
+.header .logo {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.header .header__center,
+.header .header__left,
+.header .header__right {
+  width: 33.333%
+}
+
+.header .header__right {
+  -ms-flex-pack: end;
+  justify-content: flex-end
+}
+
+.header .header__right,
+.header .header__sup {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.header .header__sup {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  padding-top: 1rem;
+  transition: background-color .4s ease
+}
+
+@media (max-width:768px) {
+  .header.menu--opened .header__sup {
+    background: #faece0
+  }
+}
+
+.icon-minus:before,
+.nav-main .dropdown--list.is--open:before {
+  content: "\ea08"
+}
+
+.icon-phone:before {
+  content: "\ea09"
+}
+
+.icon-plus:before,
+.nav-main .dropdown--list:before {
+  content: "\ea0a"
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.section__title .link__icon {
+  margin-left: 12.5rem
+}
